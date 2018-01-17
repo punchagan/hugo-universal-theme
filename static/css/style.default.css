@@ -1708,7 +1708,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #heading-breadcrumbs {
   background: url('../img/texture-bw.png') center center repeat;
-  padding: 20px 0;
+  padding: 20px;
   margin-bottom: 40px;
 }
 #heading-breadcrumbs.no-mb {
@@ -2473,7 +2473,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer {
   background: #555555;
-  padding: 50px 0;
+  padding: 50px;
   color: #999999;
 }
 #footer h1,
@@ -2568,7 +2568,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright {
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 50px;
   font-size: 12px;
   line-height: 28px;
 }

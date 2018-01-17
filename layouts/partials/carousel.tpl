@@ -3,12 +3,14 @@
 {{ if gt (len .data) 0 }}
 <section>
     <div class="home-carousel">
-        <div class="dark-mask">
-        </div>
-        <div class="homepage owl-carousel">
-            {{ range sort .data "weight" }}
+        <div class="container">
+            <div class="dark-mask">
+            </div>
+            <div class="homepage owl-carousel">
+                {{ range sort .data "weight" }}
                 {{ partial "carousel-item.html" . }}
-            {{ end }}
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>
