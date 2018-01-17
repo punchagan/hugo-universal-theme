@@ -1159,10 +1159,6 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-.home-carousel .owl-carousel {
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #666;
 }
@@ -1740,7 +1736,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: #38a7bb;
-  padding: 60px 0;
+  padding: 0 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
