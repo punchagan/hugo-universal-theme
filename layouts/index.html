@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+    {{ partial "head.html" . }}
 
-  <body>
+    <body>
 
-    <div id="all">
+        <div id="all">
 
-        <header>
+            <header>
+                {{ partial "top.html" . }}
+                {{ partial "nav.html" . }}
+            </header>
 
-          {{ partial "top.html" . }}
+            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel) }}
 
-          {{ partial "nav.html" . }}
+            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features) }}
 
-        </header>
+            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel_second) }}
 
-        {{ partial "carousel.html" . }}
+            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features_second) }}
 
-        {{ partial "features.html" . }}
+            {{ partial "testimonials.html" . }}
 
-        {{ partial "testimonials.html" . }}
+            {{ partial "see_more.html" . }}
 
-        {{ partial "see_more.html" . }}
+            {{ partial "recent_posts.html" . }}
 
-        {{ partial "recent_posts.html" . }}
+            {{ partial "clients.html" . }}
 
-        {{ partial "clients.html" . }}
+            {{ partial "footer.html" . }}
 
-        {{ partial "footer.html" . }}
-
-    </div>
+        </div>
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}

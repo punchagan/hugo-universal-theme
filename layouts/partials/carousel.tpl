@@ -1,12 +1,12 @@
-{{ if isset .Site.Params "carousel" }}
-{{ if .Site.Params.carousel.enable }}
-{{ if gt (len .Site.Data.carousel) 0 }}
+{{ if isset .context.Site.Params "carousel" }}
+{{ if .context.Site.Params.carousel.enable }}
+{{ if gt (len .data) 0 }}
 <section>
     <div class="home-carousel">
         <div class="dark-mask">
         </div>
         <div class="homepage owl-carousel">
-            {{ range sort .Site.Data.carousel "weight" }}
+            {{ range sort .data "weight" }}
                 {{ partial "carousel-item.html" . }}
             {{ end }}
         </div>
