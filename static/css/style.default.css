@@ -1128,6 +1128,7 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=100);
 }
 .owl-item .item {
+    display: block;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
