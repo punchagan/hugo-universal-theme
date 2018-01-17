@@ -1,7 +1,8 @@
 <a class="item" style="background: url({{.image}});" href="{{ .url }}">
     <div class="row">
         <div class="col-sm-5 right">
-            {{ .description | safeHTML }}
+            <h1>{{ .title }}</h1>
+            <p>{{ .description | safeHTML }}</p>
         </div>
     </div>
 </a>
