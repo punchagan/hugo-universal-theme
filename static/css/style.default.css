@@ -1093,12 +1093,6 @@ fieldset[disabled] .btn-template-primary.active {
 .ribbon.gift .theribbon:after {
   border-color: #357935 #357935 transparent transparent;
 }
-.owl-controls {
-    margin-top: 0px !important;
-    padding-top: 2px;
-    background: #38a7bb;
-    opacity: 0.6;
-}
 .owl-carousel .owl-controls .owl-page.active span,
 .owl-theme .owl-controls .owl-page.active span,
 .owl-carousel .owl-controls.clickable .owl-page:hover span,
@@ -1161,13 +1155,13 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
-  background: #666;
+    background: #666;
 }
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #fff;
+    background: #ccf;
 }
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
-  background: #fff;
+    background: #ccf;
 }
 @media (max-width: 767px) {
   .home-carousel {
