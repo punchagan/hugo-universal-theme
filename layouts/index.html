@@ -12,13 +12,13 @@
                 {{ partial "nav.html" . }}
             </header>
 
-            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel) }}
+            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel.images_1) }}
 
-            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features) }}
+            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features.items_1) }}
 
-            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel_second) }}
+            {{ partial "carousel.tpl" (dict "context" . "data" $.Site.Data.carousel.images_2) }}
 
-            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features_second) }}
+            {{ partial "features.tpl" (dict "context" . "data" $.Site.Data.features.items_2) }}
 
             {{ partial "testimonials.html" . }}
 
