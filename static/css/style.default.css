@@ -1121,6 +1121,9 @@ fieldset[disabled] .btn-template-primary.active {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+.owl-carousel .carousel-container {
+    font-family: "Avenir", "Lucida Grande", "Roboto", Helvetica, Arial, sans-serif;
+}
 .owl-item .item {
     display: block;
     background-size: cover !important;
