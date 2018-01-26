@@ -1,6 +1,6 @@
 {{ if isset .Site.Params "see_more" }}
 {{ if .Site.Params.see_more.enable }}
-<section class="container bar background-image-fixed-2 no-mb color-white text-center" style="background: url('{{ .Site.Params.see_more.image }}');">
+<section class="container bar background-image-fixed-2 no-mb color-white text-center" style="background: url('{{ .Site.Params.see_more.image }}'); background-position: {{ .Site.Params.see_more.image_position }}">
     <div class="dark-mask"></div>
     <a class="container" style="display: block;" href="{{ .Site.Params.see_more.link_url }}">
         <div class="row">
